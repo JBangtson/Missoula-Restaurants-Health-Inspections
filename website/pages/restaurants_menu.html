@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Missoula Restaurant Health Inspections</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Missoula Restaurant Health Inspections</h1>
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Search by name or address..." autocomplete="off">
+      <span id="result-count"></span>
+    </div>
+    <div class="filter-bar">
+      <button class="filter-btn" id="filter-followup" data-filter="followup">Has Follow-Up</button>
+      <button class="filter-btn" id="filter-rfi" data-filter="rfi">Has RFI</button>
+      <div class="date-range">
+        <span class="date-label">Last inspection</span>
+        <input type="date" id="date-from" class="date-input" title="Start date">
+        <span class="date-sep">–</span>
+        <input type="date" id="date-to" class="date-input" title="End date">
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="status" class="status"></div>
+    <div id="restaurant-list"></div>
+  </main>
+  <script src="scripts/restaurants_menu.js"></script>
+</body>
+</html>

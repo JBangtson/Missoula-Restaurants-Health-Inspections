@@ -1,0 +1,453 @@
+[
+  {
+    "search_result": {
+      "name": "SUBWAY - N RESERVE - SUBWAY N RESERVE",
+      "address": "5055 N RESERVE ST, MISSOULA 59808",
+      "estab_unid": "FD3B5BD8FBFCB2E087257B5E005FA72E"
+    },
+    "info": {
+      "estab_name": "SUBWAY - N RESERVE",
+      "facility_name": "SUBWAY N RESERVE",
+      "street_no": "5055",
+      "street_name": "N RESERVE ST",
+      "city": "MISSOULA",
+      "state": "kw_MT",
+      "postal_code": "59808",
+      "estab_type": "kw_1. Food Service Establishment",
+      "phone": "(406) 396-7704",
+      "last_inspection_date": "",
+      "critical_violations": "",
+      "non_critical_violations": "",
+      "estab_type_alt": "",
+      "rfi_counts": "",
+      "qrfi_counts": ""
+    },
+    "inspections": [
+      {
+        "establishment": "SUBWAY - N RESERVE SUBWAY N RESERVE",
+        "address": "5055 N RESERVE ST MISSOULA MT 59808",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "22 January, 2026",
+        "type": "Routine",
+        "rfi_count": 1,
+        "violations": [
+          {
+            "code": "3-501.19",
+            "description": "Inadequate documentation and tracking of time-controlled foods.",
+            "is_rfi": true,
+            "resolution": "Food held under 4-hour time control must be marked or otherwise identified to indicate the time that food must be discarded. Food held under 6-hour time control must be marked or otherwise identified with the time that food left cold holding and the time that it must be discarded..",
+            "observations": "Today the meatballs temped at 121 degrees. Hot holding of foods must be maintained at 135 degrees or higher. Staff indicated the meatballs are discarded every four hours. Today there was no log/documentation for time-control (when the meatballs will be discarded). If utilizing time-control submit documentation to the health department. Correct by discarding these meatballs at noon today. If steam table can not maintain hot holding temperature of 135 degrees then utilize 4 hour time control."
+          }
+        ]
+      },
+      {
+        "establishment": "SUBWAY - N RESERVE SUBWAY N RESERVE",
+        "address": "5055 N RESERVE ST MISSOULA MT 59808",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "10 October, 2024",
+        "type": "Routine",
+        "rfi_count": 0,
+        "violations": []
+      },
+      {
+        "establishment": "SUBWAY - N RESERVE SUBWAY N RESERVE",
+        "address": "5055 N RESERVE ST MISSOULA MT 59808",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "15 March, 2023",
+        "type": "Routine",
+        "rfi_count": 0,
+        "violations": []
+      },
+      {
+        "establishment": "SUBWAY - N RESERVE SUBWAY N RESERVE",
+        "address": "5055 N RESERVE ST MISSOULA MT 59808",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "06 May, 2022",
+        "type": "Follow-Up",
+        "rfi_count": 1,
+        "violations": [
+          {
+            "code": "4-501.114",
+            "description": "Quaternary ammonium solution maintained at improper concentration.",
+            "is_rfi": true,
+            "resolution": "Quaternary ammonium solution used for sanitizing shall be maintained per manufacturers instructions.",
+            "observations": "Today both the sani buckets and 3 comp sink had low concentrations (0-100 ppm). Check concentrations constantly and before the lunch rushes to ensure that it is cleaning effectively. A range from 150-400 ppm is ideal.\n\n5/6/2022\nToday the sani buckets were all around 100 ppm, and the correct concentrations are 150-400. The 3 comp was about this concentration as well.Check them to know when to refresh them."
+          }
+        ]
+      },
+      {
+        "establishment": "SUBWAY - N RESERVE SUBWAY N RESERVE",
+        "address": "5055 N RESERVE ST MISSOULA MT 59808",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "02 May, 2022",
+        "type": "Routine",
+        "rfi_count": 4,
+        "violations": [
+          {
+            "code": "2-301.14",
+            "description": "Handwashing not done when required.",
+            "is_rfi": true,
+            "resolution": "Food employees shall properly clean their hands and exposed portions of their arms immediately before engaging in food preparation including working with exposed food, clean equipment and utensils, and unwrapped single-service and single-use articles, and before donning gloves.",
+            "observations": "Today when we entered the restaurant both handwash sinks looked bone dry. Staff indicated that the sinks dry very quickly, but it did not look like they had been used. Ensure that staff is washing hands before putting on gloves and prepping RTS foods. During our visit we saw good hand washing."
+          },
+          {
+            "code": "3-501.16",
+            "description": "Cold time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be cold held at 5°C (41°F) or less. Eggs shall be stored at a temperature of 7°C (45°F) or less.",
+            "observations": "The majority of items I took temperatures of today were out of temperature range in the make table (turkey 49.2, pepperoni 49.8, provolone 50.1, tomato 46.8 and more.) Most of these items were filled over the fill line, and to keep them in the correct range you should not overfill boxes. You can keep more items in the behind counters and take temps to make sure these items are kept in temperature."
+          },
+          {
+            "code": "3-403.11",
+            "description": "Commercially processed foods improperly reheated for hot holding.",
+            "is_rfi": true,
+            "resolution": "Ready-to-eat time/temperature control for safety food that has been commercially processed and packaged in a food processing plant that is inspected by the regulatory authoritythat has jurisdiction over the plant, shall be heated to a temperature of at least 57°C (135°F) within 2 hours when being reheated for hot holding.",
+            "observations": "Today staff indicated that the meatballs were reheated for a certain time and that they look for temps between 140-165. When reheating product, you want it to be 165 or higher, and when microwaving check several spots for hot or cold spots. Ensure that staff works on this."
+          },
+          {
+            "code": "4-501.114",
+            "description": "Quaternary ammonium solution maintained at improper concentration.",
+            "is_rfi": true,
+            "resolution": "Quaternary ammonium solution used for sanitizing shall be maintained per manufacturers instructions.",
+            "observations": "Today both the sani buckets and 3 comp sink had low concentrations (0-100 ppm). Check concentrations constantly and before the lunch rushes to ensure that it is cleaning effectively. A range from 150-400 ppm is ideal."
+          }
+        ]
+      },
+      {
+        "establishment": "SUBWAY - N RESERVE SUBWAY N RESERVE",
+        "address": "5055 N RESERVE ST MISSOULA MT 59808",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "11 June, 2021",
+        "type": "Follow-Up",
+        "rfi_count": 0,
+        "violations": [
+          {
+            "code": "3-307.11",
+            "description": "Food not protected from all sources of contamination.",
+            "is_rfi": false,
+            "resolution": "Food shall be protected from all sources of contamination.",
+            "observations": "Today, uncooked bread was being stored in a rolling shelf below the sanitizer and rinse solution lines by the 3-comp sink. In addition, some of the uncooked bread was sticking out from the shelves. Food and food contact surfaces cannot be kept below toxic chemicals and must be fully protected. Per the referenced code, food must be protected from all sources of contamination. Correct by moving the uncooked bread to an area protected from sources of contamination.\n\n6/11/2021: Thank you for removing the uncooked bread from storage under the detergent and sanitizer lines and moving to the shelves for bread at the front of the store. However, baked cookies were being stored right next to the handwashing sink at the front of the store. This poses a contamination risk from handwashing at this sink to food. Correct by training staff not to store food in this area within the next hour. In addition, another solution is installing splashguards on this handwashing sink to prevent contamination to nearby food or food contact surfaces."
+          },
+          {
+            "code": "2-401.11",
+            "description": "Food employees must eat, drink and use tobacco in designated areas.",
+            "is_rfi": false,
+            "resolution": "An employee shall eat, drink, or use any form of tobacco only in designated areas where the contamination of exposed food; clean equipment, utensils, and linens; unwrapped single-service and single-use articles; or other items needing protection can not result.",
+            "observations": "Thank you for having a designated area for employee drinks, food, and personal possessions. However, an employee drink was being stored above food contact surfaces. Nick corrected this by discarding this drink. Correct by reviewing with staff where employee drinks, food, and possessions are to be kept by the end of the shift today."
+          },
+          {
+            "code": "6-501.12",
+            "description": "Physical facilities not maintained cleaned.",
+            "is_rfi": false,
+            "resolution": "Physical facilities shall be cleaned as often as necessary to keep them clean. Except for cleaning that is necessary due to a spill or other accident, cleaning shall be done during periods when the least amount of food is exposed such as after closing.",
+            "observations": "Today, there was food and other items on the ground in the walk-in fridge and cardboard boxes on the ground in the back prep area. These areas should be cleaned regularly to ensure employees can move safely through the area and to prevent pests and pathogen growth. Correct by cleaning these areas and adding these tasks to the master cleaning schedule within 1 day.\n\n6/11/2021: Thank you for cleaning the floor and other sections of the walk-in fridge. However, there was a large stack of cardboard boxes in the back prep area, near the handwashing sink. Ensure these areas are free of debris and easy to move through. Staff indicated another dumpster for cardboard has been added for the large amount of cardboard they need to take out. Correct by taking these boxes to the dumpster and training staff to maintain these areas free of debris by the end of the shift today."
+          }
+        ]
+      },
+      {
+        "establishment": "SUBWAY - N RESERVE SUBWAY N RESERVE",
+        "address": "5055 N RESERVE ST MISSOULA MT 59808",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "03 June, 2021",
+        "type": "Routine",
+        "rfi_count": 4,
+        "violations": [
+          {
+            "code": "2-301.14",
+            "description": "Handwashing not done when required.",
+            "is_rfi": true,
+            "resolution": "Food employees shall properly clean their hands and exposed portions of their arms immediately before engaging in food preparation including working with exposed food, clean equipment and utensils, and unwrapped single-service and single-use articles, and before donning gloves.",
+            "observations": "Today, several employees did not wash their hands between tasks and handling food. When staff come up to the make line, they must wash their hands before putting on gloves to prep food. Per the referenced code, employees must wash their hands before handling food. Correct by reviewing proper handwashing with employees by the end of the shift today."
+          },
+          {
+            "code": "5-205.11",
+            "description": "Handwashing sink used for purposes other than handwashing.",
+            "is_rfi": true,
+            "resolution": "A handwashing sink may not be used for purposes other than handwashing.",
+            "observations": "Today, a used bread pan and sauce bottle were placed in the front handwashing sink and other food items like pickles were on the handwashing sink. In addition, there was a stopper drain in the handwashing sink, indicating it is used for tasks other than handwashing. Per the referenced code, the handwashing sink must only be used for handwashing. Correct by reviewing  handwashing sink policies with employees by the end of the shift today. In addition, remove the stopper and that may help it drain better."
+          },
+          {
+            "code": "3-307.11",
+            "description": "Food not protected from all sources of contamination.",
+            "is_rfi": false,
+            "resolution": "Food shall be protected from all sources of contamination.",
+            "observations": "Today, uncooked bread was being stored in a rolling shelf below the sanitizer and rinse solution lines by the 3-comp sink. In addition, some of the uncooked bread was sticking out from the shelves. Food and food contact surfaces cannot be kept below toxic chemicals and must be fully protected. Per the referenced code, food must be protected from all sources of contamination. Correct by moving the uncooked bread to an area protected from sources of contamination."
+          },
+          {
+            "code": "3-501.16",
+            "description": "Cold time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be cold held at 5°C (41°F) or less. Eggs shall be stored at a temperature of 7°C (45°F) or less.",
+            "observations": "Today, the turkey and provolone on the right side of the make top were not holding at or below 41F. This may be due to the proximity to the hot hold unit. Per the referenced code, TCS food must be held at or below 41F. Correct today by using 6 hour time control for the TCS food items in the make top not cold holding at or below 41F. In addition, correct by have maintenance adjust this unit so that it is cold holding all TCS items consistently within 7 days."
+          },
+          {
+            "code": "6-303.11",
+            "description": "Lighting intensity not sufficient.",
+            "is_rfi": false,
+            "resolution": "The light intensity shall be: at least 108 lux (10 foot candles) at a distance of 75 cm (30 inches) above the floor, in walk-in refrigeration units and dry food storage areas and in other areas and rooms during periods of cleaning; at least 215 lux (20 foot candles): at a surface where food is provided for consumer self-service such as buffets and salad bars or where fresh produce or packaged foods are sold or offered for consumption, inside equipment such as reach-in and under-counter refrigerators; and at a distance of 75 cm (30 inches) above the floor in areas used for handwashing, warewashing, and equipment and utensil storage, and in toilet rooms; and at least 540 lux (50 foot candles) at a surface where a food employee is working with food or working with utensils or equipment such as knives, slicers, grinders, or saws where employee safety is a factor.",
+            "observations": "The light in the walk-in fridge was not sufficient for moving safely through the area, identify food items without use of a flashlight, or observing areas needing cleaned. Per the referenced code, lighting must be sufficient. Correct by installing additional lighting in the walk-in fridge within 7 days."
+          },
+          {
+            "code": "2-102.12",
+            "description": "No Certified Food Protection Manager associated with the establishment; supervisory education requirements not met.",
+            "is_rfi": false,
+            "resolution": "At least one employee that has supervisory and management responsibility and the authority to direct and control food preparation and service shall be a certified food protection manager who has shown proficiency of required information through passing a test that is part of an accredited program.",
+            "observations": "There is no CFPM for this facility. Nick's CFPM expired in May 2020 and has not been renewed. Per the referenced code, at least one employee must be CFPM certified. Correct by having one person CFPM certified within 7 days."
+          },
+          {
+            "code": "6-501.12",
+            "description": "Physical facilities not maintained cleaned.",
+            "is_rfi": false,
+            "resolution": "Physical facilities shall be cleaned as often as necessary to keep them clean. Except for cleaning that is necessary due to a spill or other accident, cleaning shall be done during periods when the least amount of food is exposed such as after closing.",
+            "observations": "Today, there was food and other items on the ground in the walk-in fridge and cardboard boxes on the ground in the back prep area. These areas should be cleaned regularly to ensure employees can move safely through the area and to prevent pests and pathogen growth. Correct by cleaning these areas and adding these tasks to the master cleaning schedule within 1 day."
+          },
+          {
+            "code": "4-501.114",
+            "description": "Quaternary ammonium solution maintained at improper concentration.",
+            "is_rfi": true,
+            "resolution": "Quaternary ammonium solution used for sanitizing shall be maintained per manufacturers instructions.",
+            "observations": "Today, the quaternary ammonium solution was at 0ppm after several checks. After a manager came in, he indicated the sanitizer bulk container has to be hit several times to get the dirt out of the filter and dispense the proper amount of sanitizer. After working on it, staff were able to get the sanitizer up to 200ppm which will fall out of range quickly. This is not a reliable way to dispense sanitizer and requires maintenance to ensure it can consistently dispense sanitizer as designed.\n\nPer the referenced code, sanitizer solution must be maintained at a concentration specified by the manufacturer instructions. Correct today by consistently checking sanitizer after each time its dispensed. If it can't reach 200-400ppm, use a backup of method of sanitizer such as manually adding solution or tablets to ensure sanitizer is in range."
+          }
+        ]
+      },
+      {
+        "establishment": "SUBWAY - N RESERVE SUBWAY N RESERVE",
+        "address": "5055 N RESERVE ST MISSOULA MT 59808",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "14 March, 2019",
+        "type": "Routine",
+        "rfi_count": 2,
+        "violations": [
+          {
+            "code": "3-501.16",
+            "description": "Cold time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be cold held at 5°C (41°F) or less. Eggs shall be stored at a temperature of 7°C (45°F) or less.",
+            "observations": "Cold holding temperatures on the make line look good other than a container of spinach at 45.7F. All TCS foods must be maintained at 41F or less. Since the spinach was placed on the line last night it should be discarded before continuing service. The staff member on duty discarded the spinach."
+          },
+          {
+            "code": "4-501.114",
+            "description": "Quaternary ammonium solution maintained at improper concentration.",
+            "is_rfi": true,
+            "resolution": "Quaternary ammonium solution used for sanitizing shall be maintained per manufacturers instructions.",
+            "observations": "Both of the sanitizer buckets and 3-compartment sink, all of which were just filled, only have less than 100ppm of quat sanitizer in them. Quat sanitizer must be maintained between 200-400ppm. Have your dispenser serviced or change out your sanitizer stock solution to ensure that it is producing sanitizer at the proper concentration. Hand mix your sanitizer and test with test strips until the dispenser is working properly. Repair or have this unit serviced within 2 days."
+          }
+        ]
+      },
+      {
+        "establishment": "SUBWAY - N RESERVE SUBWAY N RESERVE",
+        "address": "5055 N RESERVE ST MISSOULA MT 59808",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "30 July, 2018",
+        "type": "Routine",
+        "rfi_count": 4,
+        "violations": [
+          {
+            "code": "2-301.12",
+            "description": "Improper cleaning of hands and arms.",
+            "is_rfi": true,
+            "resolution": "Food employees shall clean their hands and exposed portions of their arms, including surrogate prosthetic devices for hands or arms for at least 20 seconds, using a cleaning compound in a handwashing sink that is properly equipped.",
+            "observations": "Today staff were observed not properly washing their hands. Hands must be washed as described above. Putting soap on your hands and then quickly rinsing it off is not an proper hand wash. Educate staff on proper hand washing before continuing service."
+          },
+          {
+            "code": "3-501.16",
+            "description": "Cold time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be cold held at 5°C (41°F) or less. Eggs shall be stored at a temperature of 7°C (45°F) or less.",
+            "observations": "Today there were several items on the make line which were not being held at 41F or less. All TSC foods, if held cold, must be kept at 41F or less. Serve or discard of any TCS food on this unit within 6 hours of when it was removed from reliable refrigeration or prepped."
+          },
+          {
+            "code": "3-501.16",
+            "description": "Hot time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be hot held at 57°C (135°F) or above.",
+            "observations": "Today the meatballs on hot hold were measuring at only 132.6F. TCS food, when held hot. Must be maintained at 135F or greater. Serve or discard of the meatballs within 4 hours of when they were reheated and placed on this unit."
+          },
+          {
+            "code": "4-501.114",
+            "description": "Quaternary ammonium solution maintained at improper concentration.",
+            "is_rfi": true,
+            "resolution": "Quaternary ammonium solution used for sanitizing shall be maintained per manufacturers instructions.",
+            "observations": "Today the quat in the 3-comp was only at 100ppm. Quat must be maintained according to the manufacturers specifications, in this case 150-400ppm. Thank you for changing out the sanitizer in the 3-comp and in the sanitizer buckets today."
+          }
+        ]
+      },
+      {
+        "establishment": "SUBWAY - N RESERVE SUBWAY N RESERVE",
+        "address": "5055 N RESERVE ST MISSOULA MT 59808",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "05 December, 2017",
+        "type": "Routine",
+        "rfi_count": 1,
+        "violations": [
+          {
+            "code": "4-501.114",
+            "description": "Quaternary ammonium solution maintained at improper concentration.",
+            "is_rfi": true,
+            "resolution": "Quaternary ammonium solution used for sanitizing shall be maintained per manufacturers instructions.",
+            "observations": "Today the quat sanitizer in the bucket in the back room was below 150ppm.  Ensure that it is always maintained at the manufacturer's recommended concentration (150-400ppm for you). Today hot water was being used and I believe this is why sanitizer was low in the buckets. Thank you for correcting today and refilling all buckets and the 3 compartment sink."
+          }
+        ]
+      },
+      {
+        "establishment": "SUBWAY - N RESERVE SUBWAY N RESERVE",
+        "address": "5055 N RESERVE ST MISSOULA MT 59808",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "14 December, 2016",
+        "type": "Routine",
+        "rfi_count": 1,
+        "violations": [
+          {
+            "code": "3-501.17",
+            "description": "Ready-to-eat time/temperature control for safety food improperly date marked.",
+            "is_rfi": true,
+            "resolution": "Ready-to-eat, time/temperature control for safety food prepared and held in a food establishment for more than 24 hours shall be clearly marked to indicate the date or day by which the food shall be consumed on the premises, sold, or discarded when held at a temperature of 5°C (41°F) or less for a maximum of 7 days. The day of preparation shall be counted as Day 1. The day or date marked by the food establishment may not exceed a manufacturer’s use-by date.",
+            "observations": "Overall date marking was good today. However, there were some items in the walk-in (spinach, lettuce, and tuna salad) that were missing a date mark. Correct today by giving these items a date mark."
+          }
+        ]
+      },
+      {
+        "establishment": "SUBWAY - N RESERVE SUBWAY N RESERVE",
+        "address": "5055 N RESERVE MISSOULA MT 59808",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "25 November, 2015",
+        "type": "Routine",
+        "rfi_count": 1,
+        "violations": [
+          {
+            "code": "4-501.114",
+            "description": "Quaternary ammonium solution maintained at improper concentration.",
+            "is_rfi": true,
+            "resolution": "Quaternary ammonium solution used for sanitizing shall be maintained per manufacturers instructions.",
+            "observations": "Today the Quat in the 3-comp was <150ppm.  Per the referenced code, Quat shall be 150-400ppm per manufacturer's instructions.  Correct before anything else is washed, and maintain correctly at all times in the future."
+          },
+          {
+            "code": "6-303.11",
+            "description": "Lighting intensity not sufficient.",
+            "is_rfi": false,
+            "resolution": "The light intensity shall be: at least 108 lux (10 foot candles) at a distance of 75 cm (30 inches) above the floor, in walk-in refrigeration units and dry food storage areas and in other areas and rooms during periods of cleaning; at least 215 lux (20 foot candles): at a surface where food is provided for consumer self-service such as buffets and salad bars or where fresh produce or packaged foods are sold or offered for consumption, inside equipment such as reach-in and under-counter refrigerators; and at a distance of 75 cm (30 inches) above the floor in areas used for handwashing, warewashing, and equipment and utensil storage, and in toilet rooms; and at least 540 lux (50 foot candles) at a surface where a food employee is working with food or working with utensils or equipment such as knives, slicers, grinders, or saws where employee safety is a factor.",
+            "observations": "Today the light intensity in the freezer was <108 Lux.  Per the referenced code, the light intensity shall be >=108 Lux.  Correct in the next 1-3 days, and maintain correctly at all times in the future."
+          }
+        ]
+      },
+      {
+        "establishment": "SUBWAY - N RESERVE SUBWAY N RESERVE",
+        "address": "5055 N RESERVE MISSOULA MT 59808",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "04 June, 2014",
+        "type": "Routine",
+        "rfi_count": 0,
+        "violations": [
+          {
+            "code": "37.110.208 (1)",
+            "description": "Hot potentially hazardous food not adequately temperature controlled.",
+            "is_rfi": false,
+            "resolution": "Hot potentially hazardous food must be maintained at an internal temperature of 135ºF or higher.",
+            "observations": "Today meatballs were at 124.5, 131.6, and 132.8 degrees F.  This potentially hazardous food must be held at 135F or above.  Discard this batch of meatballs today.  Adjust the steam table to hold these above 135F.  Correct today."
+          },
+          {
+            "code": "37.110.208 (1)",
+            "description": "Cold potentially hazardous food not adequately temperature controlled",
+            "is_rfi": false,
+            "resolution": "Cold potentially hazardous food must be maintained at an internal temperature of 41ºF or lower",
+            "observations": "Today mayo in the squeeze bottle on the make line is at 53.6F.  This potentially hazardous food must be held at 41F or lower or discarded every 4 hours.  Correct this within 3 days."
+          }
+        ]
+      },
+      {
+        "establishment": "SUBWAY - N RESERVE SUBWAY N RESERVE",
+        "address": "5055 N RESERVE MISSOULA MT 59808",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "20 August, 2013",
+        "type": "Routine",
+        "rfi_count": 0,
+        "violations": [
+          {
+            "code": "37.110.207 (7)",
+            "description": "Improper cooling times and temperatures",
+            "is_rfi": false,
+            "resolution": "Cooked food must be cooled from 135ºF to 70ºF within 2 hours and from 70ºF to 41ºF or below, within 4 hours; Food prepared at room temperature must be cooled to 41ºF within 4 hours",
+            "observations": "Today there is no cooling at the time of inspection, but Verleen and I discussed the process.  She indicated that foods are taken from the steam table and placed in the refrigerator with no additional processes to quickly cool foods.  We discussed using an ice bath, very shallow pans (about 2 inches max.) or some other method to quickly cool foods before placing in the refrigerator.  In addition to the foods not cooling quickly, it is likely they can potentially warm other foods or the refrigerator by placing hot foods directly into this unit.  Correction: Develop a cooling method that works for your facility and be ready to discuss it on the next inspection."
+          },
+          {
+            "code": "37.110.206 (2)",
+            "description": "Packaged and unpackaged food not protected from cross-contamination",
+            "is_rfi": false,
+            "resolution": "Protect both packaged and unpackaged food from contamination and dispose of contaminated product.",
+            "observations": "The portioned meats in portion boats are stacked directly on top of other open foods.  Please provide some sort of foodgrade physical barrier so that the food is not touching the bottom of other food containers.  Correction: Start today and continue."
+          }
+        ]
+      },
+      {
+        "establishment": "SUBWAY N RESERVE",
+        "address": "5055 N RESERVE MISSOULA MT 59808",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "01 May, 2013",
+        "type": "Pre-Operational",
+        "rfi_count": 0,
+        "violations": []
+      }
+    ]
+  },
+  {
+    "search_result": {
+      "name": "SUBWAY ON HIGGINS",
+      "address": "2325 S HIGGINS AVE, MISSOULA 59801",
+      "estab_unid": "46527ACC53832AB687258CBB0069DB77"
+    },
+    "info": {
+      "estab_name": "SUBWAY ON HIGGINS",
+      "facility_name": "SUBWAY ON HIGGINS",
+      "street_no": "2325",
+      "street_name": "S HIGGINS AVE",
+      "city": "MISSOULA",
+      "state": "kw_MT",
+      "postal_code": "59801",
+      "estab_type": "kw_1. Food Service Establishment",
+      "phone": "(406) 396-7704",
+      "last_inspection_date": "",
+      "critical_violations": "",
+      "non_critical_violations": "",
+      "estab_type_alt": "",
+      "rfi_counts": "",
+      "qrfi_counts": ""
+    },
+    "inspections": [
+      {
+        "establishment": "SUBWAY ON HIGGINS",
+        "address": "2325 S HIGGINS AVE MISSOULA MT 59801",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "06 March, 2026",
+        "type": "Routine",
+        "rfi_count": 0,
+        "violations": []
+      },
+      {
+        "establishment": "SUBWAY ON HIGGINS",
+        "address": "2325 S HIGGINS AVE MISSOULA MT 59801",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 396-7704",
+        "date": "02 July, 2025",
+        "type": "Routine",
+        "rfi_count": 0,
+        "violations": []
+      }
+    ]
+  }
+]

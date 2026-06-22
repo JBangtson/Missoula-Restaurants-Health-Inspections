@@ -1,0 +1,581 @@
+[
+  {
+    "search_result": {
+      "name": "MASALA",
+      "address": "206 W MAIN ST, MISSOULA 59802",
+      "estab_unid": "9BADB6D75403EC2A87257F5700792313"
+    },
+    "info": {
+      "estab_name": "MASALA",
+      "facility_name": "MASALA",
+      "street_no": "206",
+      "street_name": "W MAIN ST",
+      "city": "MISSOULA",
+      "state": "kw_MT",
+      "postal_code": "59802",
+      "estab_type": "kw_1. Food Service Establishment",
+      "phone": "(406) 926-6444",
+      "last_inspection_date": "",
+      "critical_violations": "",
+      "non_critical_violations": "",
+      "estab_type_alt": "",
+      "rfi_counts": "",
+      "qrfi_counts": ""
+    },
+    "inspections": [
+      {
+        "establishment": "MASALA",
+        "address": "206 W MAIN ST MISSOULA MT 59802",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 926-6444",
+        "date": "11 May, 2026",
+        "type": "Routine",
+        "rfi_count": 1,
+        "violations": [
+          {
+            "code": "6-202.15",
+            "description": "Outer openings not protected against the entry of insects and/or rodents.",
+            "is_rfi": false,
+            "resolution": "Outer openings of a food establishment shall be protected against the entry of insects and rodents by: filling or closing holes and other gaps along floors, walls, and ceilings; closed, tight-fitting windows; and solid, self-closing, tight-fitting doors.",
+            "observations": "Today all the doors in the establishment are open, no screens are in place. This facility does not have AC and the doors are opened throughout operations to allow for ventilation. Ensure openings are protected from pests. Correct within 3 weeks by providing screens for the kitchen door and door closest to the make-line. Send photos of installment to my email. Provide other pest prevention and control measures, for example fly traps."
+          },
+          {
+            "code": "7-202.12",
+            "description": "Sanitizer concentration exceeds maximum allowed strength.",
+            "is_rfi": true,
+            "resolution": "Maintain sanitizer at strength as required in rule or as per the manufacturer's specifications.",
+            "observations": "Today the chlorine (bleach) sanitizer was above 100 ppm. Ensure chlorine sanitizer is maintained between 50-100 ppm. Correct within 3 days by re-educating staff on proper sanitizer concentrations, and regular use of test strips."
+          }
+        ]
+      },
+      {
+        "establishment": "MASALA",
+        "address": "206 W MAIN ST MISSOULA MT 59802",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 926-6444",
+        "date": "07 January, 2025",
+        "type": "Routine",
+        "rfi_count": 0,
+        "violations": [
+          {
+            "code": "3-307.11",
+            "description": "Food not protected from all sources of contamination.",
+            "is_rfi": false,
+            "resolution": "Food shall be protected from all sources of contamination.",
+            "observations": "Today the ice machine has a lot of biofilm build up on the plastic chute that comes into contact with the ice. Ensure this is added to a regular cleaning schedule. Correct within the next week by dumping the ice and deep cleaning the inside of the ice machine."
+          }
+        ]
+      },
+      {
+        "establishment": "MASALA",
+        "address": "206 W MAIN ST MISSOULA MT 59802",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 926-6444",
+        "date": "15 September, 2023",
+        "type": "Routine",
+        "rfi_count": 4,
+        "violations": [
+          {
+            "code": "4-501.114",
+            "description": "Quaternary ammonium solution maintained at improper concentration.",
+            "is_rfi": true,
+            "resolution": "Quaternary ammonium solution used for sanitizing shall be maintained per manufacturers instructions.",
+            "observations": "Today the quat sanitizer concentration in two bucket was at and below 100ppm. Ensure the concentration is between 150 - 400ppm or per manufacturer recommendations. Correct by regularly switching out the water and checking with test strips to ensure its between the correct concentration throughout service."
+          },
+          {
+            "code": "3-307.11",
+            "description": "Food not protected from all sources of contamination.",
+            "is_rfi": false,
+            "resolution": "Food shall be protected from all sources of contamination.",
+            "observations": "Today inside the ice machine there is a build up of biofilm. Ensure this space is deep cleaned (wash, rinse, sanitized and air-dried) and added to a more regular cleaning schedule. Correct within the week."
+          },
+          {
+            "code": "3-501.16",
+            "description": "Cold time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be cold held at 5°C (41°F) or less. Eggs shall be stored at a temperature of 7°C (45°F) or less.",
+            "observations": "Today several TCS items were above 41F. Ensure TCS items are kept at or below 41F. Correct by discarding the sliced tomatos in the make-line within 6 hours if not used."
+          },
+          {
+            "code": "3-501.14",
+            "description": "Improper cooling times and temperatures.",
+            "is_rfi": true,
+            "resolution": "Cooked time/temperature control for safety food shall be cooled:  within 2 hours from 57°C (135°F) to 21°C (70°F); and within a total of 6 hours from 57°C (135°F) to 5°C (41°F) or less.  Time/temperature control for safety food shall be cooled within 4 hours to 5°C (41°F) or less if prepared from ingredients at ambient temperature, such as reconstituted foods and canned tuna.",
+            "observations": "Today in the reach a container of butter chicken that was made yesterday is temping at 45.8F. Ensure when cooling it goes from 135 to 70 in 2 hours and 135 to 41 within 6 hours. Recommend discarding this butter chicken container since its still sitting at 45.8F."
+          },
+          {
+            "code": "3-501.17",
+            "description": "Ready-to-eat time/temperature control for safety food improperly date marked.",
+            "is_rfi": true,
+            "resolution": "Ready-to-eat, time/temperature control for safety food prepared and held in a food establishment for more than 24 hours shall be clearly marked to indicate the date or day by which the food shall be consumed on the premises, sold, or discarded when held at a temperature of 5°C (41°F) or less for a maximum of 7 days. The day of preparation shall be counted as Day 1. The day or date marked by the food establishment may not exceed a manufacturer’s use-by date.",
+            "observations": "Today the humus in the make-line has a date label of 07-26 which is one is it was placed in the freezer. Ensure when it is pulled from the freezer that a new date label is placed on the container. Correct within a week by reeducating your staff."
+          },
+          {
+            "code": "3-304.14",
+            "description": "Wiping cloths and their storage containers not properly stored and used.",
+            "is_rfi": false,
+            "resolution": "Store sanitizer buckets off of the floor and use them in a manner that prevents food and equipment contamination.",
+            "observations": "Today the sani bucket in the kitchen in being stored on the ground. Ensure sani buckets are stored off the ground. Correct within week by reeducating your staff."
+          }
+        ]
+      },
+      {
+        "establishment": "MASALA",
+        "address": "206 W MAIN ST MISSOULA MT 59802",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 926-6444",
+        "date": "06 April, 2022",
+        "type": "Follow-Up",
+        "rfi_count": 4,
+        "violations": [
+          {
+            "code": "3-501.14",
+            "description": "Improper cooling times and temperatures.",
+            "is_rfi": true,
+            "resolution": "Cooked time/temperature control for safety food shall be cooled:  within 2 hours from 57°C (135°F) to 21°C (70°F); and within a total of 6 hours from 57°C (135°F) to 5°C (41°F) or less.  Time/temperature control for safety food shall be cooled within 4 hours to 5°C (41°F) or less if prepared from ingredients at ambient temperature, such as reconstituted foods and canned tuna.",
+            "observations": "4/6/22  Today there are sheet pans of cubes of cheese that has been cooked and is now cooling at room temperature.  Staff indicated it has been there for about 45 minutes and waits until it gets to 70F and then puts it in a refrigeration unit.  We discussed that there is a misunderstanding as cooling must occur quickly, so initially for 15-20 minutes is fine to get the initial heat out, but not until it gets to room temperature.  Develop methods to allow foods to cool very quickly and minimize the time it is being left out.  Cool foods quickly and reheat foods quickly.  Limit the time foods are in the temperature danger zone from 41F to 135F.  \n\nToday there is a spinach sauce that was just blended when we arrived and is about 80.9F on the SAAG.  This product would need to cool to 41F or less within a maximum of 4 hours.  Today it is in a large and deep hotel pan (about 5-6 inches deep) with a lid.  Ensure it cools quickly or facilitate the cooling with ice wands, ice baths, etc.  Management told us it usually takes about 6 hours which is too long from ambient to less than 41F.  We discussed splitting the quantity into smaller containers; leave the lid off; use ice wands or ice baths; frequent stirring to speed cooling, etc."
+          },
+          {
+            "code": "3-307.11",
+            "description": "Food not protected from all sources of contamination.",
+            "is_rfi": false,
+            "resolution": "Food shall be protected from all sources of contamination.",
+            "observations": "4/6/2022 Today the ice machine was in the same state since we last saw it. The inside still has signs of spillage on the deflection tray and poses a contamination risk, especially since it has been left uncleaned since our last visit. Ensure that you find a time to wash, rinse, and sanitize the entire ice machine before you are using it to serve ice to guest.\n\nToday the ice machine in the front service area has some spill/splash from maybe a dark beverage from above?  The machine is not clean on the inside where ice is stored and it is not clean on the edge from the spill.  Clean and sanitize the ice machine as if it were a large bowl and drain ice then wash/rinse/sanitize and air dry before making more ice."
+          },
+          {
+            "code": "4-302.13",
+            "description": "Appropriate temperature measuring device not readily accessible for warewashing operations: a thermometer for manual operations; an irreversible indicator for high heat machines.",
+            "is_rfi": true,
+            "resolution": "In manual warewashing operations, a temperature measuring device shall be provided and readily accessible for frequently measuring the washing and sanitizing temperatures. In hot water mechanical warewashing operations, an irreversible registering temperature indicator shall be provided and readily accessible for measuring the utensil surface temperature.",
+            "observations": "4/6/2022 Today there was still no system or device to record dishwashing temperatures. As we discussed in the previous inspection, this must be done frequently and accurately to check on appropriate dishwashing.\n\nEnsure an irreversible temperature measuring device is used to routinely check the high temp dishmachine temperature.  We demonstrated with thermolabels how to check the machine, but also a minimum/maximum thermometer can be used and temperatures recorded.  Be able to show us that the machine is checked weekly and what method is being used."
+          },
+          {
+            "code": "4-602.11",
+            "description": "Food contact surfaces not cleaned between raw and ready-to-eat foods, every four hours during continual use, or other times as required.",
+            "is_rfi": true,
+            "resolution": "Equipment food-contact surfaces and utensils shall be cleaned before each use with a different type of raw animal food such as beef, fish, lamb, pork, or poultry; each time there is a change from working with raw foods to working with ready-to-eat foods; between uses with raw fruits and vegetables and with time/temperature control for safety food; before using or storing a food temperature measuring device; and at any time during the operation when contamination may have occurred.  Shall be cleaned throughout the day at least every 4 hours.",
+            "observations": "4/6/2022 Today there is still no system in place to clean food contact surfaces at least every four hours. This must be done to prevent cross contamination and can be put in place by a recorded timer, dry erase board, or similar method. \n\nEnsure all in-use utensils, cutting boards, knives, etc. are cleaned and sanitized at least every 4 hours with a reliable method to keep track.  Today there are tongs left out for the hot case and utensils being used in the hot case area.  Ensure all equipment not being maintained hot or cold have system to rotate and clean/sanitizer."
+          },
+          {
+            "code": "2-102.12",
+            "description": "No Certified Food Protection Manager associated with the establishment; supervisory education requirements not met.",
+            "is_rfi": false,
+            "resolution": "At least one employee that has supervisory and management responsibility and the authority to direct and control food preparation and service shall be a certified food protection manager who has shown proficiency of required information through passing a test that is part of an accredited program.",
+            "observations": "4/6/2022 Masala must contact us by this Friday (4/9/2022) to prove that a staff member is certified or signed up to take a servsafe course.\n\nTheo indicated there is no one current on the manager's 8-hour Serve Safe or equivalent.  Ensure that someone becomes certified within one week as this is always required to have at least one person certified."
+          },
+          {
+            "code": "4-501.114",
+            "description": "Chlorine solution maintained at improper concentration.",
+            "is_rfi": true,
+            "resolution": "Chlorine solution used for sanitizing shall be maintained between 50-100ppm or per manufacturers instructions.",
+            "observations": "Ensure sanitizer buckets are maintained at 50-100ppm.  Use test strips to monitor sanitizer concentration and refresh as needed."
+          }
+        ]
+      },
+      {
+        "establishment": "MASALA",
+        "address": "206 W MAIN ST MISSOULA MT 59802",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 926-6444",
+        "date": "16 March, 2022",
+        "type": "Routine",
+        "rfi_count": 8,
+        "violations": [
+          {
+            "code": "3-501.16",
+            "description": "Cold time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be cold held at 5°C (41°F) or less. Eggs shall be stored at a temperature of 7°C (45°F) or less.",
+            "observations": "Today the small make table in the front service area is not holding cold on the top or underneath.  Temperatures in this unit are about 45F on both the top and bottom.  Items like the chai are being stored in this unit and must be kept cold at 41F or less.  If adjusting the temperature down does not make the unit hold the top and bottom cold then have the unit serviced.  Please discontinue storing any TCS foods in this unit until it consistently holds cold."
+          },
+          {
+            "code": "3-501.17",
+            "description": "Ready-to-eat time/temperature control for safety food improperly date marked.",
+            "is_rfi": true,
+            "resolution": "Ready-to-eat, time/temperature control for safety food prepared and held in a food establishment for more than 24 hours shall be clearly marked to indicate the date or day by which the food shall be consumed on the premises, sold, or discarded when held at a temperature of 5°C (41°F) or less for a maximum of 7 days. The day of preparation shall be counted as Day 1. The day or date marked by the food establishment may not exceed a manufacturer’s use-by date.",
+            "observations": "Ensure all TCS RTE foods, sauces, etc. have a date indicating when the item was prepared.  Today there are boiled eggs in the downstairs walk-in with no date and sauces in the makeline that do not have dates.  Dates help with rotation and even with dates some foods are not being rotated and discarded as required."
+          },
+          {
+            "code": "3-501.18",
+            "description": "Ready-to eat time/temperature control for safety food not discarded when required.",
+            "is_rfi": true,
+            "resolution": "Ready-to-eat, time/temperature control for safety food shall be discarded if it: exceeds the temperature and time combination specified in ¶ 3-501.17(A), except time that the product is frozen; is in a container or package that does not bear a date or day; or is appropriately marked with a date or day that exceeds a temperature and time combination as specified in ¶ 3-501.17(A).",
+            "observations": "Today there are some chickpeas in a sauce in the walk-in that is dated 3/7 and today is the 16th, so this item was done and needed to be discarded on the 13th.  Additionally, there is an item on the top of the same unit that is dated 3/9 that was done yesterday.  Monitor dates and rotate on a 7 day maximum.  The first day the food is opened or prepared is day 1 and add 6 more days to that date for the 7 day maximum.  Check dates of all TCS RTE foods and rotate or discard as required.  Discard old foods today."
+          },
+          {
+            "code": "3-201.11",
+            "description": "Food obtained from an unapproved source.",
+            "is_rfi": true,
+            "resolution": "Food shall be obtained from sources that comply with law.",
+            "observations": "Today there are about a dozen packages of ground hamburger that are labeled 'not for sale' and do not have any inspection bug on them.  This is an unapproved product and cannot be used in the facility or stored here.  Only approved sources for all food products.  Remove or discard the packages of uninspected meat in the basement freezer."
+          },
+          {
+            "code": "3-305.14",
+            "description": "Food not protected from contamination during preparation.",
+            "is_rfi": false,
+            "resolution": "During preparation, unpackaged food shall be protected from environmental sources of contamination.",
+            "observations": "Today the front of the hood above the cookline has enough condensation build-up that it is dripping down on foods, prep areas, refrigeration units, etc. this is not clean water and poses a contamination to foods prepped or stored in this area.  Ensure the issue with the hood that is creating this condensation is addressed and immediately stop storing and prep in this area."
+          },
+          {
+            "code": "7-202.12",
+            "description": "Sanitizer concentration exceeds maximum allowed strength.",
+            "is_rfi": true,
+            "resolution": "Maintain sanitizer at strength as required in rule or as per the manufacturer's specifications.",
+            "observations": "Today the chlorine sani-bucket in the kitchen is well over 200ppm which is a toxic level.  Ensure that test strips are being used to monitor concentration and maintain at 50-100ppm.  Dilute today and check concentration is at 50-100ppm."
+          },
+          {
+            "code": "3-501.13",
+            "description": "TCS foods not thawed by approved methods.",
+            "is_rfi": false,
+            "resolution": "Time/temperature control for safety food shall be thawed under refrigeration that maintains the food temperature at 5°C (41°F) or less; completely submerged under running water at a water temperature of 21°C (70°F) or below; as part of a cooking process; reduced oxygen packaged fish that bears a label indicating that it is to be kept frozen until time of use shall be removed from the reduced oxygen environment.",
+            "observations": "Today there is a frozen package of hummus that is being left out to thaw.  Thaw by one of the approved methods indicated above, including thawing in the refrigerator.  Do not leave any TCS products out to thaw at room temperature."
+          },
+          {
+            "code": "4-602.11",
+            "description": "Food contact surfaces not cleaned between raw and ready-to-eat foods, every four hours during continual use, or other times as required.",
+            "is_rfi": true,
+            "resolution": "Equipment food-contact surfaces and utensils shall be cleaned before each use with a different type of raw animal food such as beef, fish, lamb, pork, or poultry; each time there is a change from working with raw foods to working with ready-to-eat foods; between uses with raw fruits and vegetables and with time/temperature control for safety food; before using or storing a food temperature measuring device; and at any time during the operation when contamination may have occurred.  Shall be cleaned throughout the day at least every 4 hours.",
+            "observations": "Ensure all in-use utensils, cutting boards, knives, etc. are cleaned and sanitized at least every 4 hours with a reliable method to keep track.  Today there are tongs left out for the hot case and utensils being used in the hot case area.  Ensure all equipment not being maintained hot or cold have system to rotate and clean/sanitizer."
+          },
+          {
+            "code": "3-307.11",
+            "description": "Food not protected from all sources of contamination.",
+            "is_rfi": false,
+            "resolution": "Food shall be protected from all sources of contamination.",
+            "observations": "Today the ice machine in the front service area has some spill/splash from maybe a dark beverage from above?  The machine is not clean on the inside where ice is stored and it is not clean on the edge from the spill.  Clean and sanitize the ice machine as if it were a large bowl and drain ice then wash/rinse/sanitize and air dry before making more ice."
+          },
+          {
+            "code": "3-501.14",
+            "description": "Improper cooling times and temperatures.",
+            "is_rfi": true,
+            "resolution": "Cooked time/temperature control for safety food shall be cooled:  within 2 hours from 57°C (135°F) to 21°C (70°F); and within a total of 6 hours from 57°C (135°F) to 5°C (41°F) or less.  Time/temperature control for safety food shall be cooled within 4 hours to 5°C (41°F) or less if prepared from ingredients at ambient temperature, such as reconstituted foods and canned tuna.",
+            "observations": "Today there is a spinach sauce that was just blended when we arrived and is about 80.9F on the SAAG.  This product would need to cool to 41F or less within a maximum of 4 hours.  Today it is in a large and deep hotel pan (about 5-6 inches deep) with a lid.  Ensure it cools quickly or facilitate the cooling with ice wands, ice baths, etc.  Management told us it usually takes about 6 hours which is too long from ambient to less than 41F.  We discussed splitting the quantity into smaller containers; leave the lid off; use ice wands or ice baths; frequent stirring to speed cooling, etc."
+          },
+          {
+            "code": "4-302.13",
+            "description": "Appropriate temperature measuring device not readily accessible for warewashing operations: a thermometer for manual operations; an irreversible indicator for high heat machines.",
+            "is_rfi": true,
+            "resolution": "In manual warewashing operations, a temperature measuring device shall be provided and readily accessible for frequently measuring the washing and sanitizing temperatures. In hot water mechanical warewashing operations, an irreversible registering temperature indicator shall be provided and readily accessible for measuring the utensil surface temperature.",
+            "observations": "Ensure an irreversible temperature measuring device is used to routinely check the high temp dishmachine temperature.  We demonstrated with thermolabels how to check the machine, but also a minimum/maximum thermometer can be used and temperatures recorded.  Be able to show us that the machine is checked weekly and what method is being used."
+          },
+          {
+            "code": "2-102.12",
+            "description": "No Certified Food Protection Manager associated with the establishment; supervisory education requirements not met.",
+            "is_rfi": false,
+            "resolution": "At least one employee that has supervisory and management responsibility and the authority to direct and control food preparation and service shall be a certified food protection manager who has shown proficiency of required information through passing a test that is part of an accredited program.",
+            "observations": "Theo indicated there is no one current on the manager's 8-hour Serve Safe or equivalent.  Ensure that someone becomes certified within one week as this is always required to have at least one person certified."
+          }
+        ]
+      },
+      {
+        "establishment": "MASALA",
+        "address": "206 W MAIN ST MISSOULA MT 59802",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 926-6444",
+        "date": "21 February, 2020",
+        "type": "Follow-Up",
+        "rfi_count": 1,
+        "violations": [
+          {
+            "code": "3-501.16",
+            "description": "Cold time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be cold held at 5°C (41°F) or less. Eggs shall be stored at a temperature of 7°C (45°F) or less.",
+            "observations": "2/21/20 Items on the cold make top are not consistently at 41F or less.  It appears that the foods closest to the refrigeration source are cold, but as it gets farther away it is not holding foods at 41F or less.  Most of the items do not require cold temperatures for food safety, so we discussed storing items in the first 4 bins where food temperatures are at 41F or less.\n\nItems on the cold bar like the sauces, cabbage salad, etc. are not being maintained at 41F or less.  These items were at 45-51F which are not safe temperatures.  David indicated there has been issues with this unit and foods moved to other areas of the table, but temperatures must be monitored and active managerial controls used to ensure a safe product is being offered.  Because this inspection resulted from a complaint of illness and management knows there was a illness complaint, it seems that managerial practices would have been improved to minimize further issues.  Operational practices seen today could certainly have led to an illness and possibly even an illness outbreak."
+          }
+        ]
+      },
+      {
+        "establishment": "MASALA",
+        "address": "206 W MAIN ST MISSOULA MT 59802",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 926-6444",
+        "date": "12 February, 2020",
+        "type": "Routine",
+        "rfi_count": 6,
+        "violations": [
+          {
+            "code": "3-501.14",
+            "description": "Improper cooling times and temperatures.",
+            "is_rfi": true,
+            "resolution": "Cooked time/temperature control for safety food shall be cooled:  within 2 hours from 57°C (135°F) to 21°C (70°F); and within a total of 6 hours from 57°C (135°F) to 5°C (41°F) or less.  Time/temperature control for safety food shall be cooled within 4 hours to 5°C (41°F) or less if prepared from ingredients at ambient temperature, such as reconstituted foods and canned tuna.",
+            "observations": "Today there are big pans of curry in the upright 3-door reach-in that are at 68F about 2 hours after it was put in the unit at about 1pm.  It is possible that these pans cooled properly, but the system to further cool will not cool this volume quickly and is also heating the refrigeration unit so that foods in this unit are above 45F too.  Other items like the falafel made yesterday is still at almost 44F even though another item near the falafel is at 39F indicating the unit holds cold, but cooling is not adequate.  There are two big pans of cooked chicken from yesterday that was temped in several spots and is about 45-47F and another pan of meat that is about 44F from yesterday indicating that cooling did not occur as required.  Further evidence that foods are not actively cooled is that there is no disruption of the surface indicating frequent stirring, etc.  A follow-up inspection will be done and cooling practices must be improved.  Please start and maintain a cooling log for all foods made in advance and cooled.  Do not use the upright that you are indicating is 30 years old and doesn't always work right as the refrigerator that hot foods are being stored.  Actively cool foods with ice baths, ice wands, smaller quantities, frequent stirring, etc."
+          },
+          {
+            "code": "3-501.16",
+            "description": "Hot time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be hot held at 57°C (135°F) or above.",
+            "observations": "Today the two shelf hot case is not holding any of the TCS item temped at 135F or more.  Some items are indicated to be on time control, but there is no log and all foods are over 4 hours since service begins at 11a.m. and this inspection was after 3pm.  Items in the glass display hot case must be on documented time control as this is not holding safe hot temperatures.  Additionally, the brown rice and white rice on steam table are not at 135F or more.   Some items indicated to not be at safe hot temperatures have been pulled, but the rice continues to be in-use and served.  Discard immediately since it is not at a safe temperature, there is no documented time control and it has exceeded the 4 hour allowed for service.  There was a complaint of illness in a guest and there are many factors including poor hot holding that could have led to illness."
+          },
+          {
+            "code": "3-501.16",
+            "description": "Cold time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be cold held at 5°C (41°F) or less. Eggs shall be stored at a temperature of 7°C (45°F) or less.",
+            "observations": "Items on the cold bar like the sauces, cabbage salad, etc. are not being maintained at 41F or less.  These items were at 45-51F which are not safe temperatures.  David indicated there has been issues with this unit and foods moved to other areas of the table, but temperatures must be monitored and active managerial controls used to ensure a safe product is being offered.  Because this inspection resulted from a complaint of illness and management knows there was a illness complaint, it seems that managerial practices would have been improved to minimize further issues.  Operational practices seen today could certainly have led to an illness and possibly even an illness outbreak."
+          },
+          {
+            "code": "3-501.19",
+            "description": "Inadequate documentation and tracking of time-controlled foods.",
+            "is_rfi": true,
+            "resolution": "Food held under 4-hour time control must be marked or otherwise identified to indicate the time that food must be discarded. Food held under 6-hour time control must be marked or otherwise identified with the time that food left cold holding and the time that it must be discarded..",
+            "observations": "Many items in the two layer hot case are not at 135F or more.  David indicated they are on time control, but there is no documentation at all for any day indicating that this is being done.  The inspection was done after 3pm, so all foods would have exceeded the 4 hour maximum.  There is a 'happy hour' special of discounted food items, but these cannot be the foods that were not on temperature control and have exceeded the 4 hour time control.  Start documentation and maintain daily as required."
+          },
+          {
+            "code": "2-102.11",
+            "description": "PIC unable to demonstrate knowledge.",
+            "is_rfi": true,
+            "resolution": "Based on the risks inherent to the food operation, during inspections and upon request the person in charge shall demonstrate to the regulatory authorityknowledge of foodborne disease prevention, application of the hazard Analysis and critical control point principles, and the requirements of this Code.",
+            "observations": "Management is not able to demonstrate good food safety knowledge today as foods are not being held at safe hot or cold temperatures; there is no documentation to follow foods indicated to be on time control; hot foods are being stored without active cooling methods in an old upright that staff indicated does not always hold safe temperatures and the hot foods are temperature abusing other foods in the unit; there is no method for cleaning and sanitizing at least every 4 hours other than looking at the utensil; etc.  \n\nThere was a complaint of an illness that appears to be valid considering the operational practices seen today.  Management was aware of the illness complaint, but is not demonstrating good food safety knowledge today/."
+          },
+          {
+            "code": "4-602.11",
+            "description": "Food contact surfaces not cleaned between raw and ready-to-eat foods, every four hours during continual use, or other times as required.",
+            "is_rfi": true,
+            "resolution": "Equipment food-contact surfaces and utensils shall be cleaned before each use with a different type of raw animal food such as beef, fish, lamb, pork, or poultry; each time there is a change from working with raw foods to working with ready-to-eat foods; between uses with raw fruits and vegetables and with time/temperature control for safety food; before using or storing a food temperature measuring device; and at any time during the operation when contamination may have occurred.  Shall be cleaned throughout the day at least every 4 hours.",
+            "observations": "Develop a reliable method to clean and sanitize all in-use dishware at least every 4 hours with a method to keep track.  Use timers, dry erase, log sheets, etc.  visual observation will not be acceptable as an indicator as there is scientific research that the cleaning/sanitizing must be done at least every 4 hours to minimize bacterial growth parameters.  Be able to discuss and demonstrate the system on the next inspection."
+          },
+          {
+            "code": "3-302.15",
+            "description": "Produce not washed prior to use.",
+            "is_rfi": false,
+            "resolution": "Except for whole, raw fruits and vegetables that are intended for washing by the consumer before consumption, raw fruits and vegetables shall be thoroughly washed in water to remove soil and other contaminants before being cut, combined with other ingredients, cooked, served, or offered for human consumption in ready-to-eat form.",
+            "observations": "All produce must be washed prior to use or prep.  All produce whether cooked or not must be thoroughly washed unless specifically indicated to be 'washed and ready-to-eat' or similar.  Today onions, carrots, cucumbers, etc. were not washed prior to prep or use."
+          }
+        ]
+      },
+      {
+        "establishment": "MASALA",
+        "address": "206 W MAIN ST MISSOULA MT 59802",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 926-6444",
+        "date": "03 October, 2019",
+        "type": "Routine",
+        "rfi_count": 2,
+        "violations": [
+          {
+            "code": "3-501.16",
+            "description": "Cold time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be cold held at 5°C (41°F) or less. Eggs shall be stored at a temperature of 7°C (45°F) or less.",
+            "observations": "Today Coco in the kitchen east side reach-in, and yogurt scs. on the front counter line were temping >41.0F.  Per the referenced code, TCS cold-held food must be <=41.0F.  Corrected on-site by discarding the yogurt scs, and ice-wanding  the cooling lentils in the reach-in and the Coco, which was brought-up by the Lentils from an hour ago."
+          },
+          {
+            "code": "4-501.114",
+            "description": "Quaternary ammonium solution maintained at improper concentration.",
+            "is_rfi": true,
+            "resolution": "Quaternary ammonium solution used for sanitizing shall be maintained per manufacturers instructions.",
+            "observations": "Today the newly made Quat sani buckets were <200ppm, the manufacturer's required minimum concentration strength for food-contact surface sanitizer is 200-400.  Per the referenced code, Quat must be at the manufacturer's required strength.  Corrected on-site by remaking, and testing at creation to ensure safe concentrations are reached."
+          }
+        ]
+      },
+      {
+        "establishment": "MASALA",
+        "address": "206 W MAIN ST MISSOULA MT 59802",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 926-6444",
+        "date": "26 February, 2019",
+        "type": "Follow-Up",
+        "rfi_count": 1,
+        "violations": [
+          {
+            "code": "3-501.16",
+            "description": "Hot time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be hot held at 57°C (135°F) or above.",
+            "observations": "Today TCS foods at front counter display case are temping <135F.  Per the referenced code, these foods must be >=135F.  Corrected on-site by discarding TCS foods <135F, and adjusting hold temps.  After last inspection, hot case was replaced with new unit, and staff is working on finding settings to hold hot safely, but not affect food quality.  Ensure the error is always on the side of safety.  Turn unit higher during peak times, and turn down after rush."
+          }
+        ]
+      },
+      {
+        "establishment": "MASALA",
+        "address": "206 W MAIN ST MISSOULA MT 59802",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 926-6444",
+        "date": "19 December, 2018",
+        "type": "Routine",
+        "rfi_count": 4,
+        "violations": [
+          {
+            "code": "4-101.11",
+            "description": "Utensils and food-contact surfaces of equipment not safe",
+            "is_rfi": true,
+            "resolution": "Materials that are used in the construction of utensils and food-contact surfaces of equipment may not allow the migration of deleterious substances or impart colors, odors, or tastes to food and under normal use conditions shall be safe.",
+            "observations": "Today to-go containers are being used to scoop dry store foods for cooking.  Per the referenced code, utensils must be safe, durable, cleanable, and not allow for the migration of deleterious substances into food.  Correct in the next 24 hrs., by using durable/cleanable food-grade plastics or metal scoops with handles, and wash, rinse, sanitize, and air-dry at least every 24hrs., or more often as needed if contaminated."
+          },
+          {
+            "code": "2-301.12",
+            "description": "Improper cleaning of hands and arms.",
+            "is_rfi": true,
+            "resolution": "Food employees shall clean their hands and exposed portions of their arms, including surrogate prosthetic devices for hands or arms for at least 20 seconds, using a cleaning compound in a handwashing sink that is properly equipped.",
+            "observations": "Today staff were turning-off hand-wash sink faucet with washed hands, instead of paper towel.  Per the referenced code, hand-wash faucet must be turned-off with paper towel.  Corrected on-site through education and retraining."
+          },
+          {
+            "code": "3-305.12",
+            "description": "Food stored in prohibited areas.",
+            "is_rfi": false,
+            "resolution": "Food may not be stored: in locker rooms; in toilet rooms; in dressing rooms; in garbage rooms; in mechanical rooms; under sewer lines that are not shielded to intercept potential drips; under leaking water lines, including leaking automatic fire sprinkler heads, or under lines on which water has condensed; under open stairwells; or under other sources of contamination.",
+            "observations": "Today dry store food and catering utensils are being stored under sewer lines in the basement.  Per the referenced code, these must not be stored under sewer lines.  Correct in the next 24 hrs., by moving these items, and/or erecting shields to prevent leakage onto these items."
+          },
+          {
+            "code": "3-501.16",
+            "description": "Hot time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be hot held at 57°C (135°F) or above.",
+            "observations": "Today all TCS foods in the hot-hold glass case are temping <135F.  Per the referenced code, hot-held TCS foods must be held at >=135F.  Corrected on-site by discarding this food, or reheating to >=165F, then holding at >=135F.\nAlso, veggie samosas aren't being hot-held at >=135 F.  Staff state they are being par-cooked, cooled, then finished cooked to >=165F.  As there is no temp or time-control being used to protect food safety, they are in violation.  If you want to use this process, ensure that either a physical temp or time log is being used to maintain food safety."
+          },
+          {
+            "code": "6-501.111",
+            "description": "Premises not maintained free of insects, rodents or other pests.",
+            "is_rfi": true,
+            "resolution": "The premises shall be maintained free of insects, rodents, and other pests. The presence of insects, rodents, and other pests shall be controlled to eliminate their presence on the premises by: routinely inspecting incoming shipments of food and supplies; routinely inspecting the premises for evidence of pests; using methods, if pests are found, such as trapping devices or other means of pest control as specified and eliminating harborage conditions.",
+            "observations": "Today there is rodent feces, along the floor/wall joint, by the dry foods storage rack in the basement.  Per the referenced code, the premises must be maintained free of pests.  Correct in the next 1-3 days, by safely wet-cleaning the feces, and contacting professional pest control to assess and eliminate rodents.  Contact me with this information, after their assessment."
+          }
+        ]
+      },
+      {
+        "establishment": "MASALA",
+        "address": "206 W MAIN ST MISSOULA MT 59802",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 926-6444",
+        "date": "20 December, 2017",
+        "type": "Routine",
+        "rfi_count": 4,
+        "violations": [
+          {
+            "code": "3-501.16",
+            "description": "Hot time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be hot held at 57°C (135°F) or above.",
+            "observations": "Today the bone-in chix in the hot hold case was temping <135 F.  Per the referenced code, hot held TCS food shall be held >=135 F.  Corrected on-site by reheating to >=165 F internal temp and holding hot at >=135 F internal temp at all times in the future."
+          },
+          {
+            "code": "3-501.16",
+            "description": "Cold time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be cold held at 5°C (41°F) or less. Eggs shall be stored at a temperature of 7°C (45°F) or less.",
+            "observations": "Today the yogurt-based sauce on the cold-hold line are temping >41.0 F.  Per the referenced code, cold-held TCS food shall be held cold at <=41.0 F.  Corrected on-site by rechilling all TCS foods in this case to <=41.0 F, and turning down the temp on this case."
+          },
+          {
+            "code": "3-501.14",
+            "description": "Improper cooling times and temperatures.",
+            "is_rfi": true,
+            "resolution": "Cooked time/temperature control for safety food shall be cooled:  within 2 hours from 57°C (135°F) to 21°C (70°F); and within a total of 6 hours from 57°C (135°F) to 5°C (41°F) or less.  Time/temperature control for safety food shall be cooled within 4 hours to 5°C (41°F) or less if prepared from ingredients at ambient temperature, such as reconstituted foods and canned tuna.",
+            "observations": "Today the sambha TCS dish made yesterday and cooling in the east side reach-in is temping >41.0 F.  Per the referenced code, TCS food shall be cooled to <=41.0 F within 6 hours total.  As this was made yesterday, and is temping >41.0 F this morning, it didn't hit the safe cooling temps in the correct amount of time.  Corrected by discarding this and any other TCS foods which didn't make safe cooling temps and times from yesterday and in the future."
+          },
+          {
+            "code": "4-302.14",
+            "description": "Accurate chemical test kit that measures concentration in mg/L (ppm) not provided for the chemical in use.",
+            "is_rfi": false,
+            "resolution": "A test kit or other device that accurately measures the concentration in MG/L of sanitizing solutions shall be provided.",
+            "observations": "Today there are no irreversible color changing strips for the hi temp warewasher.  per the referenced code, there shall be.  Correct by getting strips in the next 24 hrs."
+          },
+          {
+            "code": "4-501.114",
+            "description": "Quaternary ammonium solution maintained at improper concentration.",
+            "is_rfi": true,
+            "resolution": "Quaternary ammonium solution used for sanitizing shall be maintained per manufacturers instructions.",
+            "observations": "Today the quat sanitizer in the sani buckets was below manufacturer's required concentration strength.  Per the referenced code, quat sanitizer shall be maintained per manufacturer's specifications.  Corrected on-site."
+          }
+        ]
+      },
+      {
+        "establishment": "MASALA",
+        "address": "206 W MAIN ST MISSOULA MT 59802",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 926-6444",
+        "date": "05 December, 2016",
+        "type": "Routine",
+        "rfi_count": 2,
+        "violations": [
+          {
+            "code": "3-501.16",
+            "description": "Cold time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be cold held at 5°C (41°F) or less. Eggs shall be stored at a temperature of 7°C (45°F) or less.",
+            "observations": "Food in the upper section of the Delfield drawer cooler is not holding cold today. Discard any of the TCS foods in that section since it has likely been out of temperature for more than 6hrs (roasted turnips, cut tomatoes, etc.). Correct by adjusting/repairing unit in 1-4 days. Until then do not store TCS foods in that unit."
+          },
+          {
+            "code": "3-307.11",
+            "description": "Food not protected from all sources of contamination.",
+            "is_rfi": false,
+            "resolution": "Food shall be protected from all sources of contamination.",
+            "observations": "Today a slime mold substance is growing in the ice machine along the drip plate. Empty, clean, and sanitize this unit today."
+          },
+          {
+            "code": "4-101.17",
+            "description": "Wood and wood wicker used as a food-contact surface.",
+            "is_rfi": false,
+            "resolution": "Wood and wood wicker may not be used as a food-contact surface. Hard maple or an equivalently hard, close-grained wood may be used for: cutting boards; cutting blocks; bakers' tables; and utensils such as rolling pins, doughnut dowels, salad bowls, and chopsticks; and wooden paddles used in confectionery operations for pressure scraping kettles when manually preparing confections at a temperature of 110°C (230°F) or above.",
+            "observations": "Today a wooden drawer cabinet is being used for storage of spices. Discontinue using this for food storage. Correct today."
+          },
+          {
+            "code": "4-302.13",
+            "description": "Appropriate temperature measuring device not readily accessible for warewashing operations: a thermometer for manual operations; an irreversible indicator for high heat machines.",
+            "is_rfi": true,
+            "resolution": "In manual warewashing operations, a temperature measuring device shall be provided and readily accessible for frequently measuring the washing and sanitizing temperatures. In hot water mechanical warewashing operations, an irreversible registering temperature indicator shall be provided and readily accessible for measuring the utensil surface temperature.",
+            "observations": "No therm labels available today. Mine indicated dishes are reaching the correct temperature. Obtain in 1-7 days."
+          }
+        ]
+      },
+      {
+        "establishment": "MASALA",
+        "address": "206 W MAIN ST MISSOULA MT 59802",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 926-6444",
+        "date": "18 February, 2016",
+        "type": "Follow-Up",
+        "rfi_count": 0,
+        "violations": [
+          {
+            "code": "6-101.11",
+            "description": "Walls, floors and ceilings not maintained smooth, durable, easily cleanable, and non absorbent where required.",
+            "is_rfi": false,
+            "resolution": "Materials for indoor floor, wall, and ceiling surfaces under conditions of normal use shall be: smooth, durable, and easily cleanable for areas where food establishment operations are conducted; closely woven and easily cleanable carpet for carpeted areas; and nonabsorbent for areas subject to moisture such as food preparation areas, walk-in refrigerators, warewashing areas, toilet rooms, mobile food establishment servicing areas, and areas subject to flushing or spray cleaning methods.",
+            "observations": "The back splash of the prep sinks still needs sealed to the wall. Do so before opening."
+          },
+          {
+            "code": "4-204.112",
+            "description": "Missing or improperly located thermometer; thermometer not integral or permanently affixed.",
+            "is_rfi": false,
+            "resolution": "In a mechanically refrigerated or hot food storage unit, the sensor of a temperature measuring device shall be located to measure the air temperature or a simulated product temperature in the warmest part of a mechanically refrigerated unit and in the coolest part of a hot food storage unit.  temperature measuring devices shall be designed to be easily readable.",
+            "observations": "Put thermometers in all display units Today the cold and hot cases didn't have thermometers. Do so before opening."
+          }
+        ]
+      },
+      {
+        "establishment": "MASALA",
+        "address": "206 W MAIN ST MISSOULA MT 59802",
+        "estab_type": "1. Food Service Establishment",
+        "phone": "(406) 926-6444",
+        "date": "12 February, 2016",
+        "type": "Pre-Operational",
+        "rfi_count": 2,
+        "violations": [
+          {
+            "code": "6-301.12",
+            "description": "Appropriate hand drying device not provided at handwashing sink.",
+            "is_rfi": true,
+            "resolution": "Each handwashing sink or group of adjacent handwashing sinks shall be provided with individual disposable towels.",
+            "observations": "Paper towel dispensers must be installed and ready for use."
+          },
+          {
+            "code": "6-101.11",
+            "description": "Walls, floors and ceilings not maintained smooth, durable, easily cleanable, and non absorbent where required.",
+            "is_rfi": false,
+            "resolution": "Materials for indoor floor, wall, and ceiling surfaces under conditions of normal use shall be: smooth, durable, and easily cleanable for areas where food establishment operations are conducted; closely woven and easily cleanable carpet for carpeted areas; and nonabsorbent for areas subject to moisture such as food preparation areas, walk-in refrigerators, warewashing areas, toilet rooms, mobile food establishment servicing areas, and areas subject to flushing or spray cleaning methods.",
+            "observations": "Seal around the duct at the serving line. No gaps or holes in floors and walls. Seal with something cleanable and non-absorbent.\n\nSeal around the back splash of the prep sink. Do so by next inspection."
+          },
+          {
+            "code": "3-501.16",
+            "description": "Hot time/temperature control for safety food not adequately temperature controlled.",
+            "is_rfi": true,
+            "resolution": "Time/temperature control for safety food shall be hot held at 57°C (135°F) or above.",
+            "observations": "I was unable to assess the hot lines today. Have them on and at temperature for the next inspection."
+          }
+        ]
+      }
+    ]
+  }
+]

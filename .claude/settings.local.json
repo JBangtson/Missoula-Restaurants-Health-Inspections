@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(py -c \"import bs4; print\\('bs4 ok'\\)\" 2>&1)",
+      "Bash(Get-Content \"f:\\\\Projects\\\\30 Technology Projects\\\\01 Github - Public\\\\missoula_restaurants\\\\etl\\\\extract\\\\health_dept\\\\health_inspections.json\")",
+      "Bash(Select-Object -First 100)",
+      "Bash(py -c ' *)",
+      "Bash(py update_json.py)",
+      "Bash(powershell -Command \"Get-Content 'etl/extract/health_dept/health_inspections.json' -Raw | ConvertFrom-Json | Select-Object -ExpandProperty PSObject | Select-Object -First 1\")"
+    ]
+  }
+}

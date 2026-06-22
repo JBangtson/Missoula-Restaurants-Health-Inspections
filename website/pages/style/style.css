@@ -1,0 +1,432 @@
+/* ── Reset ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Base ── */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #f0f2f5;
+  color: #1a202c;
+  line-height: 1.5;
+}
+
+/* ── Header ── */
+.site-header {
+  background: #1a202c;
+  color: #fff;
+  padding: 20px 32px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.site-header h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+  letter-spacing: -0.01em;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+#search {
+  flex: 1;
+  max-width: 480px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  background: #fff;
+  color: #1a202c;
+  outline: none;
+}
+
+#search:focus {
+  box-shadow: 0 0 0 3px rgba(99, 179, 237, 0.55);
+}
+
+#result-count {
+  font-size: 0.85rem;
+  color: #a0aec0;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 5px 14px;
+  border-radius: 20px;
+  border: 1.5px solid #4a5568;
+  background: transparent;
+  color: #a0aec0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+  white-space: nowrap;
+}
+
+.filter-btn:hover {
+  border-color: #a0aec0;
+  color: #e2e8f0;
+}
+
+.filter-btn.active {
+  background: #63b3ed;
+  border-color: #63b3ed;
+  color: #fff;
+}
+
+.filter-btn.active:hover {
+  background: #4299e1;
+  border-color: #4299e1;
+}
+
+.date-range {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-left: 4px;
+}
+
+.date-label {
+  font-size: 0.82rem;
+  color: #a0aec0;
+  white-space: nowrap;
+}
+
+.date-input {
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1.5px solid #4a5568;
+  background: transparent;
+  color: #e2e8f0;
+  font-size: 0.82rem;
+  cursor: pointer;
+  color-scheme: dark;
+}
+
+.date-input:focus {
+  outline: none;
+  border-color: #63b3ed;
+}
+
+.date-sep {
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+/* ── Main layout ── */
+main {
+  max-width: 860px;
+  margin: 28px auto;
+  padding: 0 16px 48px;
+}
+
+/* ── Status / empty states ── */
+.status {
+  padding: 16px 0;
+  color: #718096;
+  font-size: 0.95rem;
+}
+
+.status.error {
+  color: #e53e3e;
+}
+
+.no-results {
+  padding: 40px;
+  text-align: center;
+  color: #a0aec0;
+  font-size: 0.95rem;
+}
+
+/* ── Restaurant card ── */
+.restaurant-card {
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.restaurant-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.12s;
+}
+
+.restaurant-header:hover {
+  background: #f7fafc;
+}
+
+.restaurant-header.open {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.restaurant-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.restaurant-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.restaurant-address {
+  font-size: 0.82rem;
+  color: #718096;
+}
+
+.restaurant-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+
+.inspection-count-badge {
+  font-size: 0.78rem;
+  background: #ebf8ff;
+  color: #2b6cb0;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* ── Restaurant body ── */
+.restaurant-body {
+  padding: 0 20px 4px;
+}
+
+.restaurant-body.collapsed {
+  display: none;
+}
+
+/* ── Match section (when a restaurant has multiple health dept entries) ── */
+.match-section {
+  padding: 12px 0 6px;
+}
+
+.match-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #4a5568;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.no-inspections {
+  padding: 8px 0;
+  color: #a0aec0;
+  font-size: 0.88rem;
+}
+
+/* ── Inspection row ── */
+.inspection-row {
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.inspection-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 14px;
+  cursor: pointer;
+  user-select: none;
+  background: #f7fafc;
+  transition: background 0.12s;
+}
+
+.inspection-header:hover {
+  background: #edf2f7;
+}
+
+.inspection-header.open {
+  border-bottom: 1px solid #e2e8f0;
+  background: #edf2f7;
+}
+
+.inspection-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.inspection-type {
+  font-weight: 600;
+  font-size: 0.88rem;
+  color: #2d3748;
+}
+
+.inspection-date {
+  font-size: 0.85rem;
+  color: #718096;
+}
+
+.rfi-badge {
+  font-size: 0.78rem;
+  padding: 2px 9px;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.rfi-has {
+  background: #fff5f5;
+  color: #c53030;
+}
+
+.rfi-none {
+  background: #f0fff4;
+  color: #276749;
+}
+
+/* ── Inspection body ── */
+.inspection-body {
+  padding: 10px 14px 14px;
+}
+
+.inspection-body.collapsed {
+  display: none;
+}
+
+.no-violations {
+  font-size: 0.88rem;
+  color: #48bb78;
+  padding: 4px 0;
+}
+
+/* ── Violation card ── */
+.violation-card {
+  padding: 12px 14px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  background: #f7fafc;
+  border-left: 4px solid #cbd5e0;
+}
+
+.violation-card.is-rfi {
+  background: #fff5f5;
+  border-left-color: #fc8181;
+}
+
+.violation-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.violation-code {
+  font-family: 'SFMono-Regular', Consolas, monospace;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #4a5568;
+  background: #e2e8f0;
+  padding: 1px 7px;
+  border-radius: 4px;
+}
+
+.violation-card.is-rfi .violation-code {
+  background: #fed7d7;
+  color: #822727;
+}
+
+.rfi-tag {
+  font-size: 0.7rem;
+  background: #fc8181;
+  color: #fff;
+  padding: 1px 7px;
+  border-radius: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.violation-description {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+.violation-section {
+  font-size: 0.83rem;
+  color: #4a5568;
+  margin-top: 6px;
+  line-height: 1.65;
+}
+
+.violation-section strong {
+  color: #2d3748;
+}
+
+/* ── Chevron ── */
+.chevron {
+  font-size: 0.65rem;
+  color: #a0aec0;
+  transition: transform 0.18s ease;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.restaurant-header.open > .restaurant-meta .chevron,
+.inspection-header.open > .chevron {
+  transform: rotate(90deg);
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .site-header {
+    padding: 16px;
+  }
+
+  .site-header h1 {
+    font-size: 1.1rem;
+  }
+
+  #search {
+    max-width: 100%;
+  }
+
+  main {
+    margin-top: 16px;
+    padding: 0 8px 32px;
+  }
+
+  .restaurant-header {
+    padding: 12px 14px;
+  }
+
+  .restaurant-body {
+    padding: 0 14px 4px;
+  }
+}
