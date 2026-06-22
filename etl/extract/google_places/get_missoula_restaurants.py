@@ -5,7 +5,7 @@ import time
 from math import radians, cos, sin, asin, sqrt, atan2, pi
 
 # Configuration
-API_KEY = "AIzaSyBrGtZyV--y-G27C_4KwM-Ko6joIno9d5c"  # Replace with your actual API key
+API_KEY = "API KEY"  # Replace with your actual API key
 LATITUDE = 46.86926986283907    # Example: New York
 LONGITUDE = -113.996473196707
 RADIUS = 50000  # meters
