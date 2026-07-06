@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Missoula Restaurant Health Inspections</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-top">
+      <h1>Missoula Restaurant Health Inspections</h1>
+      <a href="map.html" class="map-link" target="_blank">View map &#8594;</a>
+    </div>
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Search by name or address..." autocomplete="off">
+      <span id="result-count"></span>
+    </div>
+    <div class="filter-bar">
+      <button class="filter-btn" id="filter-followup" data-filter="followup">Has Follow-Up</button>
+      <button class="filter-btn" id="filter-rfi" data-filter="rfi">Has RFI</button>
+      <div class="date-range">
+        <span class="date-label">Last inspection</span>
+        <input type="date" id="date-from" class="date-input" title="Start date">
+        <span class="date-sep">–</span>
+        <input type="date" id="date-to" class="date-input" title="End date">
+      </div>
+      <div class="date-range">
+        <span class="sort-label">Sort</span>
+        <select id="sort-select" class="sort-select">
+          <option value="name-asc">Name (A–Z)</option>
+          <option value="name-desc">Name (Z–A)</option>
+          <option value="date-desc">Date (newest)</option>
+          <option value="date-asc">Date (oldest)</option>
+        </select>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="status" class="status"></div>
+    <div id="restaurant-list"></div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

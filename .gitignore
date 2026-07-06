@@ -1,2 +1,25 @@
-*.yaml
-*.json
+# Secrets
+.env
+*.env
+bangtsonsolutions-b3c53204fb41.json
+config.yaml
+
+# Large generated data files
+_archive/
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+

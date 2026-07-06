@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Missoula Restaurant Inspections — Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+
+    #top-section {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+    }
+
+    #top-bar {
+      background: #1a202c;
+      color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    #top-bar h1 { font-size: 1.05rem; font-weight: 700; }
+    #top-bar a {
+      color: #63b3ed;
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+    #top-bar a:hover { color: #90cdf4; }
+
+    #filter-bar {
+      background: #2d3748;
+      padding: 8px 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    #map-search {
+      padding: 5px 12px;
+      border-radius: 6px;
+      border: 1.5px solid #4a5568;
+      background: #1a202c;
+      color: #e2e8f0;
+      font-size: 0.82rem;
+      width: 180px;
+      outline: none;
+    }
+    #map-search:focus { border-color: #63b3ed; }
+
+    .map-filter-btn {
+      padding: 4px 11px;
+      border-radius: 20px;
+      border: 1.5px solid #4a5568;
+      background: transparent;
+      color: #a0aec0;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: border-color 0.15s, color 0.15s, background 0.15s;
+      white-space: nowrap;
+    }
+    .map-filter-btn:hover { border-color: #a0aec0; color: #e2e8f0; }
+    .map-filter-btn.active { background: #63b3ed; border-color: #63b3ed; color: #fff; }
+
+    .map-filter-btn.sev-critical.active { background: #e53e3e; border-color: #e53e3e; }
+    .map-filter-btn.sev-high.active     { background: #dd6b20; border-color: #dd6b20; }
+    .map-filter-btn.sev-medium.active   { background: #d69e2e; border-color: #d69e2e; }
+    .map-filter-btn.sev-low.active      { background: #68d391; border-color: #68d391; color: #22543d; }
+    .map-filter-btn.sev-clean.active    { background: #276749; border-color: #276749; color: #fff; }
+    .map-filter-btn.sev-none.active     { background: #718096; border-color: #718096; }
+
+    .map-filter-sep {
+      width: 1px;
+      height: 20px;
+      background: #4a5568;
+      flex-shrink: 0;
+    }
+
+    .map-date-label { font-size: 0.78rem; color: #a0aec0; white-space: nowrap; }
+    .map-date-input {
+      padding: 3px 7px;
+      border-radius: 5px;
+      border: 1.5px solid #4a5568;
+      background: transparent;
+      color: #e2e8f0;
+      font-size: 0.78rem;
+      cursor: pointer;
+      color-scheme: dark;
+    }
+    .map-date-input:focus { outline: none; border-color: #63b3ed; }
+
+    #map { position: fixed; bottom: 0; left: 0; right: 0; }
+
+    #legend {
+      position: absolute;
+      bottom: 28px;
+      right: 12px;
+      z-index: 999;
+      background: #fff;
+      padding: 10px 14px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      font-size: 0.82rem;
+    }
+    #legend h4 { margin-bottom: 7px; font-size: 0.78rem; color: #4a5568; text-transform: uppercase; letter-spacing: 0.05em; }
+    .legend-row { display: flex; align-items: center; gap: 8px; margin-bottom: 5px; }
+    .legend-dot {
+      width: 13px; height: 13px; border-radius: 50%;
+      border: 2px solid rgba(0,0,0,0.2);
+      flex-shrink: 0;
+    }
+
+    #map-status {
+      position: absolute;
+      top: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 999;
+      background: rgba(26,32,44,0.85);
+      color: #fff;
+      padding: 5px 16px;
+      border-radius: 20px;
+      font-size: 0.82rem;
+      pointer-events: none;
+      white-space: nowrap;
+    }
+    #map-status.hidden { display: none; }
+
+    #marker-count {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      z-index: 999;
+      background: rgba(26,32,44,0.75);
+      color: #a0aec0;
+      padding: 4px 12px;
+      border-radius: 16px;
+      font-size: 0.78rem;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="top-section">
+    <div id="top-bar">
+      <h1>Missoula Restaurant Health Inspections</h1>
+      <a href="index.html" target="_blank">&#8592; Search list</a>
+    </div>
+    <div id="filter-bar">
+      <input type="text" id="map-search" placeholder="Search name or address…" autocomplete="off">
+      <div class="map-filter-sep"></div>
+      <button class="map-filter-btn sev-critical" data-sev="Critical">Critical</button>
+      <button class="map-filter-btn sev-high"     data-sev="High">High</button>
+      <button class="map-filter-btn sev-medium"   data-sev="Medium">Medium</button>
+      <button class="map-filter-btn sev-low"      data-sev="Low">Low</button>
+      <button class="map-filter-btn sev-clean"    data-sev="Clean">Clean</button>
+      <button class="map-filter-btn sev-none"     data-sev="None">Unclassified</button>
+      <div class="map-filter-sep"></div>
+      <button class="map-filter-btn" data-extra="followup">Has Follow-Up</button>
+      <button class="map-filter-btn" data-extra="rfi">Has RFI</button>
+      <div class="map-filter-sep"></div>
+      <span class="map-date-label">Last inspection</span>
+      <input type="date" id="map-date-from" class="map-date-input" title="From">
+      <span class="map-date-label">–</span>
+      <input type="date" id="map-date-to" class="map-date-input" title="To">
+    </div>
+  </div>
+
+  <div id="map">
+    <div id="map-status">Loading restaurants…</div>
+    <div id="marker-count"></div>
+    <div id="legend">
+      <h4>Worst recent severity</h4>
+      <div class="legend-row"><div class="legend-dot" style="background:#e53e3e;"></div>Critical</div>
+      <div class="legend-row"><div class="legend-dot" style="background:#dd6b20;"></div>High</div>
+      <div class="legend-row"><div class="legend-dot" style="background:#d69e2e;"></div>Medium</div>
+      <div class="legend-row"><div class="legend-dot" style="background:#68d391;"></div>Low</div>
+      <div class="legend-row"><div class="legend-dot" style="background:#276749;"></div>Clean</div>
+      <div class="legend-row"><div class="legend-dot" style="background:#a0aec0;"></div>Unclassified</div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    // Size map to fill below the fixed top section
+    function resizeMap() {
+      const topH = document.getElementById('top-section').offsetHeight;
+      const mapEl = document.getElementById('map');
+      mapEl.style.top = topH + 'px';
+    }
+    resizeMap();
+    window.addEventListener('resize', resizeMap);
+
+    const SEVERITY_STYLE = {
+      Critical: { color: '#e53e3e', fillColor: '#e53e3e' },
+      High:     { color: '#dd6b20', fillColor: '#dd6b20' },
+      Medium:   { color: '#d69e2e', fillColor: '#d69e2e' },
+      Low:      { color: '#68d391', fillColor: '#68d391' },
+      Clean:    { color: '#276749', fillColor: '#276749' },
+      None:     { color: '#a0aec0', fillColor: '#a0aec0' },
+    };
+
+    function computeDisplaySeverity(r) {
+      const sev = r.worst_recent_severity || 'None';
+      if (sev !== 'None') return sev;
+      const routine = (r.inspections || []).filter(i =>
+        i.type && i.type.toLowerCase().includes('routine')
+      );
+      if (routine.length > 0) {
+        const latest = routine.reduce((a, b) => (a.date > b.date ? a : b));
+        if ((latest.violations || []).length === 0) return 'Clean';
+      }
+      return 'None';
+    }
+
+    const map = L.map('map').setView([46.8727, -113.9966], 13);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxZoom: 19,
+    }).addTo(map);
+
+    function escapeHtml(str) {
+      return (str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
+    function buildPopup(r, displaySev) {
+      const date = r.last_inspection_date || 'Unknown';
+      const inspCount = (r.inspections || []).length;
+      return `
+        <div style="min-width:210px; font-family:-apple-system,sans-serif;">
+          <div style="font-weight:700;font-size:0.95rem;margin-bottom:4px;">${escapeHtml(r.google_name)}</div>
+          <div style="font-size:0.8rem;color:#718096;margin-bottom:8px;">${escapeHtml(r.address)}</div>
+          <div style="font-size:0.83rem;margin-bottom:3px;">Severity: <strong>${escapeHtml(displaySev)}</strong></div>
+          <div style="font-size:0.8rem;color:#4a5568;margin-bottom:3px;">Last inspection: ${escapeHtml(date)}</div>
+          <div style="font-size:0.8rem;color:#4a5568;margin-bottom:10px;">${inspCount} inspection${inspCount !== 1 ? 's' : ''} on record</div>
+          <a href="index.html#${encodeURIComponent(r.place_id)}" target="_blank"
+             style="font-size:0.82rem;color:#3182ce;font-weight:600;">View details ↗</a>
+        </div>`;
+    }
+
+    const markerLayer = L.layerGroup().addTo(map);
+    let allMarkerData = []; // {marker, r, displaySev}
+
+    // Filter state
+    const activeSeverities = new Set();
+    const activeExtra = { followup: false, rfi: false };
+
+    function applyMapFilters() {
+      const query = document.getElementById('map-search').value.toLowerCase().trim();
+      const dateFrom = document.getElementById('map-date-from').value;
+      const dateTo   = document.getElementById('map-date-to').value;
+
+      markerLayer.clearLayers();
+      let shown = 0;
+      allMarkerData.forEach(({ marker, r, displaySev }) => {
+        if (activeSeverities.size > 0 && !activeSeverities.has(displaySev)) return;
+        if (activeExtra.followup && !(r.inspections || []).some(i => i.type === 'Follow-Up')) return;
+        if (activeExtra.rfi     && !(r.inspections || []).some(i => (i.rfi_count ?? 0) > 0)) return;
+        if (query && !r.google_name.toLowerCase().includes(query) && !r.address.toLowerCase().includes(query)) return;
+        if (dateFrom && r.last_inspection_date && r.last_inspection_date < dateFrom) return;
+        if (dateTo   && r.last_inspection_date && r.last_inspection_date > dateTo)   return;
+        markerLayer.addLayer(marker);
+        shown++;
+      });
+      document.getElementById('marker-count').textContent =
+        `${shown} / ${allMarkerData.length} restaurants`;
+    }
+
+    const statusBar = document.getElementById('map-status');
+
+    fetch('https://storage.googleapis.com/missoula_restaurants/output/restaurants.json')
+      .then(resp => {
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        return resp.json();
+      })
+      .then(restaurants => {
+        restaurants.forEach(r => {
+          if (!r.latitude || !r.longitude) return;
+          const displaySev = computeDisplaySeverity(r);
+          const style = SEVERITY_STYLE[displaySev] || SEVERITY_STYLE.None;
+
+          const marker = L.circleMarker([r.latitude, r.longitude], {
+            radius: 7,
+            color: style.color,
+            fillColor: style.fillColor,
+            fillOpacity: 0.8,
+            weight: 1.5,
+          }).bindPopup(buildPopup(r, displaySev), { maxWidth: 280 });
+
+          allMarkerData.push({ marker, r, displaySev });
+        });
+
+        applyMapFilters();
+        statusBar.textContent = `${allMarkerData.length} restaurants loaded`;
+        setTimeout(() => statusBar.classList.add('hidden'), 2000);
+      })
+      .catch(err => {
+        statusBar.textContent = `Failed to load data: ${err.message}`;
+      });
+
+    // Severity toggle buttons (OR logic: show any of the selected)
+    document.querySelectorAll('.map-filter-btn[data-sev]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const sev = btn.dataset.sev;
+        if (activeSeverities.has(sev)) {
+          activeSeverities.delete(sev);
+          btn.classList.remove('active');
+        } else {
+          activeSeverities.add(sev);
+          btn.classList.add('active');
+        }
+        applyMapFilters();
+      });
+    });
+
+    // Extra toggle buttons (AND logic)
+    document.querySelectorAll('.map-filter-btn[data-extra]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const key = btn.dataset.extra;
+        activeExtra[key] = !activeExtra[key];
+        btn.classList.toggle('active', activeExtra[key]);
+        applyMapFilters();
+      });
+    });
+
+    document.getElementById('map-search').addEventListener('input', applyMapFilters);
+    document.getElementById('map-date-from').addEventListener('change', applyMapFilters);
+    document.getElementById('map-date-to').addEventListener('change', applyMapFilters);
+  </script>
+</body>
+</html>

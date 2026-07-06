@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "montana-food-code": {
+      "command": "python",
+      "args": ["mcp/server.py"],
+      "env": {
+        "REGULATIONS_BUCKET": "your-bucket-name-here"
+      }
+    }
+  }
+}

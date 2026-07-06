@@ -3,5 +3,6 @@
     "allow": [
       "Bash(python -c ' *)"
     ]
-  }
+  },
+  "enabledMcpjsonServers": ["montana-food-code"]
 }
